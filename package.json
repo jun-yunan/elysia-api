@@ -7,10 +7,14 @@
         "start": "bun run src/index.ts"
     },
     "dependencies": {
+        "@elysiajs/cors": "^1.1.0",
+        "@elysiajs/swagger": "^1.1.0",
         "elysia": "latest"
     },
     "devDependencies": {
-        "bun-types": "latest"
+        "@prisma/client": "^5.17.0",
+        "bun-types": "latest",
+        "prisma": "^5.17.0"
     },
     "module": "src/index.js"
 }
